@@ -1,0 +1,601 @@
+
+*
+{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html,body
+{
+    width: 100%;height: 100%;
+}
+
+/* #main
+{
+
+} */
+#nav
+{
+    width: 100vw;
+    height: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-left
+{
+    color: rgb(0, 0, 0);
+    font-size: 1.6vw;
+    font-family: fantasy;
+    letter-spacing: 1.5px;
+}
+.nav-right
+{
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+.nav-right a{
+    text-decoration: none;;
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+.nav-right a:hover{
+    text-decoration: none;;
+    color: rgb(0, 0, 0);
+    scale: 1.2;
+}
+
+#page1
+{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+        margin-bottom: 5vw;
+}
+#page1 .first-p1
+{
+    width: 45%;
+    height: 100%;
+    background-color: #fff;
+}
+#page1 .first-p1
+{
+    display: flex;align-items: center;justify-content: center;
+}
+#page1 .first-p1 .card
+{
+    width: 27vw;
+    height: 27vw;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    left: 3vw;
+         box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3);
+
+}
+#page1 .first-p1 .card img
+{
+    width: 100%;height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1 .second-p1
+{
+    width: 55%;
+    height: 100%;
+    background-color: #ffffff;
+    padding-top: 2vw;
+}
+.second-p1
+{
+    padding: 2vw;
+}
+.second-p1 h3
+{
+    font-size: 3vw;
+    margin-top: 2vw;
+}
+.second-p1 h1
+{
+    font-size: 4vw;
+    margin-top: 2vw;
+}
+.btn-1{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+.icons
+{
+    display: flex;
+    flex-direction: column;
+}
+.icons #da
+{
+    width: 11vw;
+    border: none;
+    background: rgb(53,53,53);
+    padding: 1vw;
+    border-radius: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+     box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3);
+
+    transition: 0.5s;
+}
+.icons #da:active
+{
+    width: 11vw;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 1vw;
+    border-radius: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    text-align: center;
+    scale: 0.5;
+}
+.icons #da:hover
+{
+    width: 11vw;
+    border: none;
+    background: rgb(255, 255, 255);
+    padding: 1vw;
+    border-radius: 2vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+    text-align: center;
+}
+
+.icons .btns
+{
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    padding: 0.5vw;
+}
+
+#page-2
+{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#page-2 .about-l
+{
+    width: 60%;
+    min-height: 100%;
+}
+.about-l h2
+{
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+.about-l h1
+{
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2vw;
+}
+
+.cardboxs
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2vw;
+    margin-top: 2vw;
+}
+
+.cardboxs .card1
+{
+    width: 25vw;
+    height: 15vw;
+    background-color: #ffffff;
+    position: relative;
+    margin-left: 4vw;
+    box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3)}
+
+.cardboxs .card1 .reward
+{
+    position: absolute;
+    top: 1vw;
+    font-size: 2.4vw;
+    left: 46%;
+    color: rgb(0, 0, 0);
+}
+
+.cardboxs p
+{
+    text-align: center;
+    margin-top: 8.4vw;
+    /* position: absolute; */
+    font-size: 1.2vw;
+    font-family: system-ui;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.cardboxs .card2
+{
+    position: relative;
+    width: 25vw;
+    height: 15vw;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3)
+}
+
+.cardboxs .card2 .reward
+{
+    position: absolute;
+    top: 1vw;
+    font-size: 2.4vw;
+    left: 46%;
+    color: rgb(0, 0, 0);
+}
+
+.e
+{
+    position: absolute;
+    top: 5vw;
+    left: 31%;
+    font-size: 2vw;
+    margin-bottom: 2vw;
+    color: rgb(0, 0, 0);
+}
+
+.details
+{
+    text-align: center;
+    padding: 4vw 4vw;
+    font-size: 1.2vw;
+    font-family: revert;
+    line-height: 2vw;
+    letter-spacing: 1px;
+    margin-left: 4vw;
+}
+
+#page-2 .about-r
+{
+    position: relative;
+    width: 40%;
+    height: 100%;
+}
+
+#page-2 .about-r .img-box
+{
+    width: 70%;
+    height: 57%;
+    background: khaki;
+    margin-left: 10%;
+    margin-top: -10%;
+}
+#page-2 .about-r .img-box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page-2 .img
+{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9854nQAT-Xlr_lEXbK7-2gu_J3qplYn7Eaw&usqp=CAU");
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+
+
+#page-3
+{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2vw;
+}
+
+#page-3 .exp1
+{
+    width: 100%;
+    height: 100%;
+}
+.exp1 h2
+{
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 2vw;
+    color: rgb(0, 0, 0);
+}
+.exp1 h1
+{
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 2vw;
+}
+
+.card-exp
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card-exp .slide
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin-top: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3)
+}
+
+.slide .img-cover
+{
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+}
+
+.slide .img-cover img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide i
+{
+    margin-left: 47%;
+    font-size: 22px;
+    padding: 0.5vw 0;
+}
+.slide p
+{
+    text-align: center;
+    margin: 12px 0;
+    font-size: 16px;
+    font-family: revert;
+    font-weight: bolder;
+}
+
+#prog
+{
+    margin-top: 5vw;
+}
+
+#page-4
+{
+    width: 100vw;
+    min-height: 100vh;
+}
+#page-4 h2
+{
+    text-align: center;
+    padding-top: 5vw;
+}
+#page-4 h1
+{
+    text-align: center;
+    padding-top: 1vw;
+}
+#page-4 .pro
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.pro .pro-card
+{
+    width: 25vw;
+    height: 33vw;
+        margin: 2vw 0;
+        box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3)
+}
+
+.pro-card h5
+{
+        text-align: center;
+    margin: 2vw 0;
+    font-size: 22px;
+}
+.pro-card .img-box
+{
+width: 60%;
+    height: 50%;
+    background: black;
+    margin: 23px 5vw;
+
+}
+
+.pro-card .img-box img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pro-card .btnss
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4vw 0;
+    gap: 2vw;
+}
+.pro-card a
+{
+    width: 9vw;
+    border: none;
+    padding: 0.7vw;
+    border-radius: 2vw;
+    box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 1.2vw;
+    text-align: center;
+    transition: 0.5s;
+}
+.pro-card a:hover
+{
+    width: 9vw;
+    border: none;
+    padding: 0.7vw;
+    border-radius: 2vw;
+    box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    text-align: center;
+}
+.pro-card a:active
+{
+    width: 9vw;
+    border: none;
+
+    padding: 0.7vw;
+    border-radius: 2vw;
+    box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1.2vw;
+    text-align: center;
+    scale: 0.5;
+    }
+
+
+
+
+
+#page-5
+{
+    width: 100vw;
+    height: 100vh;
+}
+
+#page-5 h2
+{
+    text-align: center;
+    margin-top: 13vw;
+}
+#page-5 h1
+{
+    text-align: center;
+    margin-top: 1vw;
+}
+
+.contact-info
+{
+    width: 50vw;
+    display: flex;
+    height: 10vw;
+        align-items: center;
+    justify-content: space-evenly;
+    margin: 4vw 25vw;
+        box-shadow: 0px 5px 27px rgba(0, 0, 0, 0.3)
+
+}
+
+.contact-info .mail
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mail i
+{
+        font-size: 2vw;
+    margin: 0 1vw;
+}
+.mail p
+{
+        margin-top: 1.5vw;
+    font-size: 1.4vw;
+    transition: 0.5s;
+}
+.mail p:hover
+{
+    scale: 1.1;
+        margin-top: 1.5vw;
+    font-size: 1.4vw;
+}
+
+.mail p a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+.contact-info .linkin
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkin i
+{
+        font-size: 2vw;
+    margin: 0 1vw;
+}
+
+.linkin p
+{
+        margin-top: 1.5vw;
+    font-size: 1.4vw;
+    transition: 0.5s;
+}
+.linkin p:hover
+{
+        margin-top: 1.5vw;
+    font-size: 1.4vw;
+    scale: 1.1;
+}
+
+.linkin p a
+{
+    text-decoration: none;
+    color: black;
+}
